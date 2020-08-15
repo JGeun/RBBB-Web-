@@ -1,0 +1,91 @@
+/*Wrap*/
+#wrap{min-width: 1200px; margin: 0 auto}
+#header{
+  position: relative; width:100%; height:500px;
+   background:url(headerBackground.jpg) no-repeat; background-size:1200px 100%; background-position: center;
+ z-index: 11;}
+
+#header .banner{
+  position: relative;
+  height: 100px;
+  border-bottom: 1px solid #e4e8eb;
+}
+#header .banner_area{
+  position: relative;
+  width: 1130px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header .logo_area img{
+  position: absolute;
+  top:20px;
+  left:20px;
+  width:70px;
+}
+
+#header .logo_area span{
+  position: absolute;
+  top:30px;
+  left:90px;
+  font-weight: 800;
+  font-size: 36px;
+  color: #F8FFF4;
+}
+
+#header .menu_area{
+  position: relative;
+  font-size: 12px;
+  height: 100%;
+  width: 1000px;
+}
+#header .menu_area nav{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+#header .menu_area nav ul{
+  position:absolute;
+  top:40px;
+  left:350px;
+  display: inline-block;
+}
+
+#header .menu_area nav ul li{
+  display: inline-block;
+  text-align: center;
+  margin-right: 80px;
+}
+
+#header .menu_area nav ul li a{
+  text-decoration:none;
+  color:#fff;
+  font-size:20px;
+  font-weight:600;
+  line-height: 30px;
+}
+#header .menu_area nav ul li:hover a,#wrap header nav ul li.on a{color:#FFBE70;}
+
+#header .intro{
+  position: relative;
+  height: 400px;
+}
+
+#intro_area{
+  width:800px;
+  height: 100%;
+  margin: 0 auto;
+}
+#intro_area{
+  font-size: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+#intro_area strong{
+  font-size:30px;
+  color: #FE675D;
+}
+
+#intro_area span{
+  font-size:24px;
+  color: #fff;
+}
