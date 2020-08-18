@@ -114,3 +114,49 @@
   font-size:24px;
   color: #fff;
 }
+
+#container{
+  margin-top: 10px;
+  height:950px;
+}
+
+#container .conTitle{
+  position: relative;
+  height:50px;
+  margin-bottom: 20px;
+}
+#container .conTitle_area{
+  margin: 0 auto;
+  text-align: center;
+  width: 1100px;
+}
+
+#container .conTitle_area span{
+  font-weight: 800;
+  font-size: 24px;
+}
+/* home */
+#container .book{
+  position: relative;
+  height: 900px;
+}
+
+#container .book_area{
+  width: 1000px;
+  height: 100%;
+  margin:0 auto;
+}
+
+
+
+/* About this  */
+#container .explain{
+  position:relative;
+  height:900px;
+}
+
+#container .explain_area{
+  width: 1000px;
+  height: 100%;
+  margin:0 auto;
+}
